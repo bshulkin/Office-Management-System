@@ -5,6 +5,8 @@ Class of Person that includes strings of first name and last name.
 
 Class of Services that has individual services and their prices.
 
+Array Lists to store the values in person and services classes.
+
 Being able to modify, create, or delete any of the doctors, patients, or assistants.
 
 Store and display user modifications until terminated
