@@ -1,0 +1,14 @@
+Class of Person that includes strings of first name and last name.
+    Subclass of Doctor that extends person and includes specialization
+    Subclass of Patient that extends person and includes details such as birthday, address and insurances(Y/N).
+    Sublcass of Assistant that extends person and includes the assigned doctor.
+
+Class of Services that has individual services and their prices.
+
+Being able to modify, create, or delete any of the doctors, patients, or assistants.
+
+Store and display user modifications until terminated
+
+Create an invoice where it asks for patient you want to create it for, the list of services that were performed and the total at the bottom.
+
+Handle exceptions without crashing or infinite loop.
