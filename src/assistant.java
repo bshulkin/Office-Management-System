@@ -1,9 +1,9 @@
 public class assistant extends person {
-        private String doctorAssigned;
+        private doctor doctor;
     
-        public assistant(String fName, String lName, String doctorAssigned) {
+        public assistant(String fName, String lName, doctor doctor) {
             super(fName, lName);
-            this.doctorAssigned = doctorAssigned;
+            this.doctor = doctor;
         }
     }
         
