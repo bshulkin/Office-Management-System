@@ -28,5 +28,30 @@ public class arrayLists {
     public void addService(services newService){
         servicesList.add(newService);
     }
+    public ArrayList<doctor> getDoctors(){
+        return doctorsList;
+    }
+
+    public ArrayList<patient>getPatients(){
+        return patientsList;
+    }
+    public ArrayList<assistant>getAssistants(){
+        return assistantsList;
+    }
+    public ArrayList<services>getServices(){
+        return servicesList;
+    }
+    public void setDoctor(ArrayList values){
+        this.doctorsList = values;
+    }
+    public void setPatient(ArrayList values){
+        this.patientsList = values;
+    }
+    public void setAssistant(ArrayList values){
+        this.assistantsList = values;
+    }
+    public void setServices(ArrayList values){
+        this.servicesList = values;
+    }
 
 }

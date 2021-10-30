@@ -39,8 +39,8 @@ public class App {
         addServiceLists.addService(brain_scan);
         addServiceLists.addService(checkup);
         addServiceLists.addService(flu_shot);
-
-
+        
+        System.out.println(arrayLists.getDoctors(Bryan));
 
 
     
