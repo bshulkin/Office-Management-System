@@ -11,6 +11,6 @@ public class services {
     }
 
     public String toString(){
-        return String.format("Service ID: " + id + "\n" + "Service Name: " + name + "\n" + "Service Price: $" + price);
+        return String.format(id + "\t\t" + name + "\t\t$" + price);
     }
 }

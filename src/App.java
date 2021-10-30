@@ -41,9 +41,15 @@ public class App {
         addServiceLists.addService(flu_shot);
         
         
-
-
+        
+        System.out.println("*********** Our Services ***********");
+        System.out.println("ID" + "\t\t" + "Name" + "\t\t" + "Price");
         System.out.println(surgery);
+        System.out.println(physical);
+        System.out.println(brain_scan);
+        System.out.println(checkup);
+        System.out.println(flu_shot);
+
 
     
 
