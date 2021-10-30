@@ -4,7 +4,7 @@ public class arrayLists {
     static ArrayList<doctor> doctorsList;
     private ArrayList<patient> patientsList;
     private ArrayList<assistant> assistantsList;
-    private ArrayList<services> servicesList;
+    private static ArrayList<services> servicesList;
 
     public arrayLists(){
         doctorsList = new ArrayList<>();
@@ -38,7 +38,7 @@ public class arrayLists {
     public ArrayList<assistant>getAssistants(){
         return assistantsList;
     }
-    public ArrayList<services>getServices(){
+    public static ArrayList<services>getServices(){
         return servicesList;
     }
     public void setDoctor(ArrayList values){

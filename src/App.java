@@ -1,6 +1,12 @@
 import java.util.*;
 
 public class App {
+    //this does nothing not sure why
+    public static void menu(services services){
+        System.out.println("*********** Our Services ***********");
+        System.out.println("ID" + "\t\t" + "Name" + "\t\t" + "Price");
+        System.out.println(arrayLists.getServices());
+    }
     public static void main(String[] args) throws Exception {
         
         //doctor arrayList
@@ -39,19 +45,8 @@ public class App {
         addServiceLists.addService(brain_scan);
         addServiceLists.addService(checkup);
         addServiceLists.addService(flu_shot);
-        
-        
-        
-        System.out.println("*********** Our Services ***********");
-        System.out.println("ID" + "\t\t" + "Name" + "\t\t" + "Price");
-        System.out.println(surgery);
-        System.out.println(physical);
-        System.out.println(brain_scan);
-        System.out.println(checkup);
-        System.out.println(flu_shot);
 
-
-    
+        System.out.println(arrayLists.getServices());
 
     }
 }
