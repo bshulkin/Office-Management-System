@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
 public class arrayLists {
-    private ArrayList<doctor> doctorsList;
+    static ArrayList<doctor> doctorsList;
     private ArrayList<patient> patientsList;
     private ArrayList<assistant> assistantsList;
     private ArrayList<services> servicesList;
 
-    public void ArrayLists(){
+    public arrayLists(){
         doctorsList = new ArrayList<>();
         patientsList = new ArrayList<>();
         assistantsList = new ArrayList<>();
@@ -44,8 +44,8 @@ public class arrayLists {
     public void setDoctor(ArrayList values){
         this.doctorsList = values;
     }
-    public void setPatient(ArrayList values){
-        this.patientsList = values;
+    public void setPatient(ArrayList patientList){
+        this.patientsList = patientList;
     }
     public void setAssistant(ArrayList values){
         this.assistantsList = values;
@@ -53,5 +53,8 @@ public class arrayLists {
     public void setServices(ArrayList values){
         this.servicesList = values;
     }
+
+
+
 
 }

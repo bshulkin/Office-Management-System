@@ -1,9 +1,16 @@
 public class services {
 
-    public services(int i, String string, int j) {
-    }
     int id;
     String name;
-    double price;
-    
+    int price;
+
+    public services(int id, String name, int price) {
+    this.id = id;
+    this.name = name;
+    this.price = price;
+    }
+
+    public String toString(){
+        return String.format("Service ID: " + id + "\n" + "Service Name: " + name + "\n" + "Service Price: $" + price);
+    }
 }

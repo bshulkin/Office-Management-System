@@ -40,8 +40,10 @@ public class App {
         addServiceLists.addService(checkup);
         addServiceLists.addService(flu_shot);
         
-        System.out.println(arrayLists.getDoctors(Bryan));
+        
 
+
+        System.out.println(surgery);
 
     
 
